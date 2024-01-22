@@ -33,7 +33,7 @@ const ImageUploader = () => {
     }
 
     const handelDrop = async (e) => {
-        console.log('calling handle drop')
+        
         e.preventDefault()
         setLoading(true)
         console.log(e.dataTransfer.files[0])
